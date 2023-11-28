@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.navbar {
+    z-index: 9999 !important;
+}
+
 .pfp {
     height: 40px;
     width: 40px;
