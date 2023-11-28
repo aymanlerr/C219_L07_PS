@@ -1,0 +1,98 @@
+.icon {
+    height: 40px;
+    width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pfp {
+    height: 40px;
+    width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pfp-offline {
+    height: 40px;
+    width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    object-position: 100% 100%;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-arrow {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.prop {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-func {
+    display: flex;
+    gap: 15px;
+}
+
+.bookmarked-card {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 769px) {
+    .banner {
+        height: 100vh;
+    }
+
+    .banner-img {
+        height: 500px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer-text {
+        display: flex;
+        float:none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .prop {
+        justify-content: start;
+    }
+
+    .nav-func {
+        justify-content: end;
+    }
+}
